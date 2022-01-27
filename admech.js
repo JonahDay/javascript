@@ -12,28 +12,36 @@
 // console.log("Result:", result)
 // console.log("Array2", array1)
 
-const person1 = {
-firstname : "Jonah",
-lastname : "Day",
-gender : "male",
-dob : "January 9, 2007",
-}
+// const person1 = {
+// firstname : "Jonah",
+// lastname : "Day",
+// gender : "male",
+// dob : "January 9, 2007",
+// }
 
-const person2 = {
-    firstname : "Riley",
-    lastname : "Riley",
-    gender : "male",
-}
+// const person2 = {
+//     firstname : "Riley",
+//     lastname : "Riley",
+//     gender : "male",
+//     networth : "Very Poor",
+// }
 
-const person3 = {
-    firstname : "Bryson",
-    lastname : "Albers",
-    gender : "male",
-}
-const peoplearray=[person1, person2, person3]
-console.log("Array:", peoplearray[0].firstname)
+// const person3 = {
+//     firstname : "Bryson",
+//     lastname : "Albers",
+//     gender : "male",
+// }
+// const peoplearray=[person1, person2, person3]
+// console.log("Array:", peoplearray[0].firstname)
 
-for(let i = 0; i < peoplearray.length; i++){
-let fullname = peoplearray[i].firstname + " " + peoplearray[i].lastname
-console.log(fullname)
-}
+// for(let i = 0; i < peoplearray.length; i++){
+// let fullname = peoplearray[i].firstname + " " + peoplearray[i].lastname + " " + peoplearray[i].gender 
+// if(peoplearray[i].networth){
+//     fullname = fullname + " " + peoplearray[i].networth
+// }
+//     console.log(fullname)
+// }
+
+
+// person2.species = "human"
+// console.log("Person 2 change:", person2)
